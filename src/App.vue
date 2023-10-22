@@ -53,7 +53,7 @@ export default {
   methods: {
     // Search for a location based on the input query
     async searchForLocation(query) {
-      const apiKey = 'AIzaSyCeLrlgN0gjHy77Cpu-Il-BHiyFGSQkbR8';
+      const apiKey = 'key';
       try {
         // API call to get location details
         const response = await axios.get(`https://maps.googleapis.com/maps/api/geocode/json?address=${query}&key=${apiKey}`);
